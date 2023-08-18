@@ -6,3 +6,9 @@ serverb
 
 [prod]
 serverc
+
+[prod:vars]
+ntpServer=testing.com
+
+[dev]
+ntpserver=devntp.com
