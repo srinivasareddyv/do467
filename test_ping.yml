@@ -1,0 +1,13 @@
+---
+
+- hosts: all
+  gather_facts: False
+
+  tasks:
+  - name: ping test
+    shell: uptime
+    register: out
+
+  - name: print out
+    debug:
+      var: out

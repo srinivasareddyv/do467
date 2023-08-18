@@ -1,0 +1,8 @@
+[dev]
+servera
+
+[qa]
+serverb
+
+[prod]
+serverc
