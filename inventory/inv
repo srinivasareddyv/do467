@@ -10,5 +10,5 @@ serverc
 [prod:vars]
 ntpServer=testing.com
 
-[devi:vars]
+[dev:vars]
 ntpserver=devntp.com
